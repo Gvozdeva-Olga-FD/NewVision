@@ -1,0 +1,12 @@
+.footer__contacts_type_adress{
+    margin: 0;
+    padding: 0;
+    color: rgba(255,255,255,0.4);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 740px) {
+    .footer__contacts_type_adress{
+        text-align: center;
+    }
+}

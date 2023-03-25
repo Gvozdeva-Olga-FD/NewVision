@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TheVision.Deteiling</title>
+  <link rel="stylesheet" href='/pages/index.css'>
+</head>
+<body class="root">
+    <header class="header">
+      <div class="header__logo"></div>
+    </header>
+    <main class="content">
+      <section class="profile">
+        <img src="./images/avatar.jpg" alt="фотография профиля" class="profile__avatar">
+        <div class="profile__info">
+          <h1 class="profile__name">Olga Gvozdeva</h1>
+          <button type="button" class="profile__button-name-change"></button>
+          <p class="profile__occupation">Software Engineer</p>
+        </div>
+        <button type="button" class="profile__button-add-place"></button>
+      </section>
+      <section class="elements">
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="footer__feedbackForm">
+        <h3 class="footer__title">Остались вопросы?</h3>
+        <p class="footer__subtitle">Опытные сотрудники всегда готовы проконсультировать Вас: подобрать комплекс услуг, сориентировать по ценам, сделать бронь на удобное время. Позвоните - и мы с радостью поможем. Также Вы можете воспользоваться нашей формой записи, менеджеры обработают заявку и свяжутся с Вами для подтверждения</p>
+        <button type="button" class="footer__feedbackForm-button">Связаться с нами</button>
+        </section>
+        <section class="footer__contacts">
+          <a class="footer__contacts_type_adress" href='https://yandex.ru/maps/213/moscow/?ll=37.669178%2C55.782860&mode=poi&poi%5Bpoint%5D=37.669178%2C55.782860&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D23191298223&pt=55.783245%2C37.668884&z=18'>г. Москва, 1-й Красносельский переулок д.3</a>
+        <p class="footer__contacts_type_phone">
+          <a href='tel:+74992804128'>+7(499)280-41-28</a>
+          <a href='tel:+79686663344'>+7(968)666-33-44</a>
+        </p>
+        <p class="footer__contacts_type_email">Detailing.TheVision@gmail.com</p>
+       </section>
+     </footer>
+    <section class="popup popup__feedbackForm">
+      <div class="popup__container">
+        <h2 class="popup__title">Связаться с нами</h2>
+        <form class="popup__form" name="persDetails" novalidate>
+          <div class="popup__input-wrap">
+            <input required minlength="2" maxlength="40" type="text" class="popup__input popup__input_type_name" name="inputTypeName" id="name-input">
+            <span class="popup__message-error name-input-error"></span>
+          </div>
+          <div class="popup__input-wrap">
+            <input required minlength="2" maxlength="200" type="text" class="popup__input popup__input_type_occupation"   name="inputTypeOccupation" id="occupation-input">
+            <span class="popup__message-error occupation-input-error"></span>
+          </div>
+          <button type="submit" class="popup__submit">Сохранить</button>
+        </form>
+        <button class="popup__close" type="reset"></button>
+      </div>
+    </section>
+    <template id="element-template">
+      <article class="element">
+        <img class="element__photo">
+      </article>
+    </template>
+    <script type="module" src="./pages/index.js"></script>
+</body>
+</html>

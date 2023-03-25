@@ -1,0 +1,14 @@
+.footer__feedbackForm-button{
+  grid-area: button;
+  border: none;
+  height: 50px;
+  width: max-content;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 50px;
+  border-radius: 5px;
+  background: rgb(177, 12, 12);
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.9);;
+  justify-self: center;
+}

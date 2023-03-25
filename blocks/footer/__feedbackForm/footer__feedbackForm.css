@@ -1,0 +1,32 @@
+.footer__feedbackForm{
+    display: grid;
+    grid-template-areas:
+    "title ."
+    "subtitle button";
+    row-gap: 25px;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+    max-width: 980px;
+    min-height: 100px;
+    margin: 0 auto;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1080px) {
+    .footer__feedbackForm{
+      max-width: calc(100% - 40px);
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .footer__feedbackForm{
+        max-width: calc(100% - 20px);
+        grid-template-areas:
+        "title"
+        "subtitle" 
+        "button";
+        grid-template-columns: 1fr;
+        
+    }
+}
