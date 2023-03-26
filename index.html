@@ -8,20 +8,23 @@
 </head>
 <body class="root">
     <header class="header">
+      <div class="header__container">
       <div class="header__logo"></div>
-    </header>
+        <nav class="header__menu">
+           <a href="services.html" class="header__menu_type_services">Услуги</a>
+           <a href="portfolio.html" class="header__menu_type_portfolio">Портфолио</a>
+           <a href="about.html" class="header__menu_type_about">О нас</a>
+       </nav>    
+       <nav class="header__socialMedia">
+          <a href="https://vk.com/detailing_vision" class="header__socialMedia_type_vk"></a>
+          <a href="https://youtube.com/channel/UCUIVcKA8r_mpDWpQXxyR3QQ" class="header__socialMedia_type_youtube"></a>
+          <a href="https://t.me/theVision_Detailing" class="header__socialMedia_type_telegram"></a>
+      </nav>
+      <button type="button" class="header__hamburgerButton"></button>
+      </div>
+     </header>
     <main class="content">
-      <section class="profile">
-        <img src="./images/avatar.jpg" alt="фотография профиля" class="profile__avatar">
-        <div class="profile__info">
-          <h1 class="profile__name">Olga Gvozdeva</h1>
-          <button type="button" class="profile__button-name-change"></button>
-          <p class="profile__occupation">Software Engineer</p>
-        </div>
-        <button type="button" class="profile__button-add-place"></button>
-      </section>
-      <section class="elements">
-      </section>
+      
     </main>
     <footer class="footer">
       <section class="footer__feedbackForm">
@@ -38,6 +41,11 @@
         <p class="footer__contacts_type_email">Detailing.TheVision@gmail.com</p>
        </section>
      </footer>
+    <section class="popup popup__activeMenu">
+      <div class="popup__container">
+        <nav class="menuActiv"></nav>
+      </div>
+    </section>
     <section class="popup popup__feedbackForm">
       <div class="popup__container">
         <h2 class="popup__title">Связаться с нами</h2>

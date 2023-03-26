@@ -1,12 +1,12 @@
 .header__logo{
-   max-width: 142px;
-   min-height: 33px;
-   background-image: url(../../../images/logo.png);
+  cursor: pointer;
+   max-width: 300px;
+   background-image: url(../../../images/logoTextWhite.png);
    background-size: contain;
    background-repeat: no-repeat;
 
 }
-
+/*
 @media screen and (max-width: 900px) {
     .header__logo{
       max-width: 104px;
@@ -14,5 +14,4 @@
       margin-left: 27px;
     }
 }
-
-
+*/

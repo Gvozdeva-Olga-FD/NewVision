@@ -1,0 +1,20 @@
+.header__container{
+  max-width: 980px;
+  min-height: 80px;
+  display: grid;
+  grid-template-columns: 2fr 1.2fr .8fr;
+  grid-template-rows: 1fr;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1080px) {
+    .header__container{
+      max-width: calc(100% - 40px);
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .header__container{
+        max-width: calc(100% - 20px);
+    }
+}
