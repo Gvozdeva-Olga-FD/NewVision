@@ -34,7 +34,7 @@
         <button type="button" class="footer__feedbackForm-button">Связаться с нами</button>
         </section>
         <section class="footer__contacts">
-          <a class="footer__contacts_type_adress" href='https://yandex.ru/maps/213/moscow/?ll=37.669178%2C55.782860&mode=poi&poi%5Bpoint%5D=37.669178%2C55.782860&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D23191298223&pt=55.783245%2C37.668884&z=18'>г. Москва, 1-й Красносельский переулок д.3</a>
+          <a class="footer__contacts_type_adress" href='https://yandex.ru/maps/213/moscow/house/yakornaya_ulitsa_1/Z04YcA9iSEwAQFtvfXp5eX5qbQ==/?ll=37.682197%2C55.688299&z=16'>г. Москва, ул. Якорная д.1</a>
         <p class="footer__contacts_type_phone">
           <a href='tel:+74992804128'>+7(499)280-41-28</a>
           <a href='tel:+79686663344'>+7(968)666-33-44</a>
@@ -53,16 +53,12 @@
         <h2 class="popup__title">Связаться с нами</h2>
         <form class="popup__form" name="feedbackForm" novalidate>
           <div class="popup__input-wrap">
-            <input required minlength="2" maxlength="40" type="text" class="popup__input popup__input_type_name" name="inputTypeName" id="name-input">
+            <input placeholder="Ваше имя" required minlength="2" maxlength="40" type="text" class="popup__input popup__input_type_name" name="inputTypeName" id="name-input">
             <span class="popup__message-error name-input-error"></span>
           </div>
           <div class="popup__input-wrap">
-            <input required minlength="10" maxlength="11" type="tel" class="popup__input popup__input_type_phone"   name="inputTypePhone" id="phone-input">
+            <input placeholder="Мобильный телефон" required minlength="10" maxlength="11" type="tel" class="popup__input popup__input_type_phone" name="inputTypePhone" id="phone-input">
             <span class="popup__message-error phone-input-error"></span>
-          </div>
-          <div class="popup__input-wrap">
-            <input required type="datetime-local" class="popup__input popup__input_type_date"   name="inputTypeDate" id="date-input">
-            <span class="popup__message-error date-input-error"></span>
           </div>
           <div>
           <button type="submit" class="popup__submit">Сохранить</button>
