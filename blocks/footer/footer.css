@@ -1,3 +1,4 @@
 .footer{
-    background-color: #000;
+    background-color: rgba(0, 0, 0, .9);
+    flex: 0 0 auto;
 }
